@@ -17,7 +17,9 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 
 token = os.getenv("DISCORD_BOT_TOKEN")
 
-
+@bot.event
+async def on_ready():
+    print("Bot prêt")
 
 @bot.command()
 async def stats(ctx, arg1, arg2):
