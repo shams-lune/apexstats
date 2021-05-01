@@ -118,4 +118,4 @@ async def support(ctx):
 async def invite(ctx):
     await ctx.send("Voici le lien d'invite du bot: https://discord.com/api/oauth2/authorize?client_id=837916744667627521&permissions=8&scope=bot")
 
-bot.run("ODM3OTE2NzQ0NjY3NjI3NTIx.YIzgxw.uGRqEt3RMzp3UiJ-sI8Qps-LDqQ")
+bot.run(token)
